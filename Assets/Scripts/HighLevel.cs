@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnrealSaper
-{
     public class NewBehaviourScript : MonoBehaviour
     {
 
@@ -19,4 +17,3 @@ namespace UnrealSaper
 
         }
     }
-}

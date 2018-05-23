@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnrealSaper
-{
-
     public class MainWindow : MonoBehaviour
     {
 
@@ -20,5 +17,3 @@ namespace UnrealSaper
 
         }
     }
-
-}
