@@ -18,8 +18,8 @@ public class Level5 : MonoBehaviour {
         paus.SetActive(false);
         GO.SetActive(false);
         VI.SetActive(false);
-     //   for (int i = 0; i < 25; ++i)
-   //     { knop[i].GetComponent<Text>().text = "   "; }
+        for (int i = 0; i < 25; ++i)
+        { knop[i].GetComponentInChildren<Text>().text = "   "; }
 
         for (int i = 0; i < 5; ++i)
             for (int j = 0; j < 5; ++j)
@@ -194,8 +194,8 @@ public class Level5 : MonoBehaviour {
 
     void pole (int i, int j, int x)
     {
-        if (m[i, j] == -1) { knop[x].GetComponent<Text>().text = "Boom!"; GO.SetActive(true); }
-        else { knop[x].GetComponent<Text>().text = (bombs(i, j).ToString()); --v; Viner(v); }
+        if (m[i, j] == -1) { knop[x].GetComponentInChildren<Text>().text = "Boom!"; GO.SetActive(true); }
+        else { knop[x].GetComponentInChildren<Text>().text = (bombs(i, j).ToString()); --v; Viner(v); }
         print(x);
     }
 }
