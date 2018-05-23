@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class Level3 : MonoBehaviour {
+public class Level5 : MonoBehaviour {
     int v = 6;
     int[,] m = new int[3, 3];
     public GameObject[] knop = new GameObject[9];
@@ -14,11 +14,10 @@ public class Level3 : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        v = 6;
         paus.SetActive(false);
         GO.SetActive(false);
         VI.SetActive(false);
-        for (int i=0; i<9; ++i)
+        for (int i = 0; i < 9; ++i)
         { knop[i].GetComponent<Text>().text = ""; }
 
         for (int i = 0; i < 3; ++i)
@@ -27,8 +26,8 @@ public class Level3 : MonoBehaviour {
         int b = 3;
         while (b > 0)
         {
-            int i = Random.Range(0,3);
-            int j = Random.Range(0,3);
+            int i = Random.Range(0, 3);
+            int j = Random.Range(0, 3);
             if (m[i, j] != -1) { m[i, j] = -1; b--; }
         }
     }
@@ -45,7 +44,7 @@ public class Level3 : MonoBehaviour {
         int max = 2, min = 0;
         if ((i - 1 >= min) && (j - 1 >= min))
             if (m[i - 1, j - 1] == -1) { x++; }
-        if ( i - 1 >= 0)
+        if (i - 1 >= 0)
             if (m[i - 1, j] == -1) { x++; }
         if ((i - 1 >= min) && (j + 1 <= max))
             if (m[i - 1, j + 1] == -1) { x++; }
