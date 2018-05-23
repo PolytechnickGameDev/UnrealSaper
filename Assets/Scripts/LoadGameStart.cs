@@ -5,9 +5,9 @@ using UnityEditor.SceneManagement;
 
 public class LoadGameStart : MonoBehaviour {
 
-	public void LoadByIndex(int sceneIndex)
+	public void LoadByIndex()
     {
-        EditorSceneManager.LoadScene(sceneIndex);
+        EditorSceneManager.LoadScene("HighLevel");
 
     }
 }
