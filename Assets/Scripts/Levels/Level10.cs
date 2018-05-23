@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class Level5 : MonoBehaviour {
+public class Level10 : MonoBehaviour {
     int v = 13;
     int[,] m = new int[5, 5];
     public GameObject[] knop = new GameObject[25];

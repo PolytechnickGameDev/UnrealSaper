@@ -263,8 +263,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_5
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 171720385}
   - component: {fileID: 171720384}
   m_Layer: 5
-  m_Name: Text 1
+  m_Name: Text 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -607,8 +607,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_1
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_16
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -729,8 +729,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_1
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -851,8 +851,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_3
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_13
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: button_4
         m_Mode: 1
         m_Arguments:
@@ -1030,7 +1030,7 @@ GameObject:
   - component: {fileID: 311645120}
   - component: {fileID: 311645119}
   m_Layer: 5
-  m_Name: Text 2
+  m_Name: Text 22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1169,7 +1169,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: restart
         m_Mode: 1
         m_Arguments:
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: menu
         m_Mode: 1
         m_Arguments:
@@ -1413,8 +1413,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_5
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_15
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1553,18 +1553,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   knop:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  paus: {fileID: 0}
-  GO: {fileID: 0}
-  VI: {fileID: 0}
+  - {fileID: 578721365}
+  - {fileID: 527033054}
+  - {fileID: 1707387058}
+  - {fileID: 287093744}
+  - {fileID: 1880942033}
+  - {fileID: 1911254069}
+  - {fileID: 913014723}
+  - {fileID: 817158677}
+  - {fileID: 612910159}
+  - {fileID: 34331786}
+  - {fileID: 272531678}
+  - {fileID: 544309598}
+  - {fileID: 280667755}
+  - {fileID: 780655352}
+  - {fileID: 345630695}
+  - {fileID: 268157633}
+  - {fileID: 1577434621}
+  - {fileID: 1442449159}
+  - {fileID: 1231573556}
+  - {fileID: 1065686364}
+  - {fileID: 1821709991}
+  - {fileID: 2095448389}
+  - {fileID: 1776612287}
+  - {fileID: 1275347937}
+  - {fileID: 2100586100}
+  paus: {fileID: 1582900104}
+  GO: {fileID: 1534639041}
+  VI: {fileID: 1133570626}
 --- !u!1 &432472661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,7 +1731,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: resume
         m_Mode: 1
         m_Arguments:
@@ -1837,7 +1853,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: button_2
         m_Mode: 1
         m_Arguments:
@@ -1959,8 +1975,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_2
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_12
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2081,7 +2097,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: button_1
         m_Mode: 1
         m_Arguments:
@@ -2138,7 +2154,7 @@ GameObject:
   - component: {fileID: 581066826}
   - component: {fileID: 581066825}
   m_Layer: 5
-  m_Name: Text 1
+  m_Name: Text 21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2277,8 +2293,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_4
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2467,8 +2483,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_4
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_14
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2524,7 +2540,7 @@ GameObject:
   - component: {fileID: 786219905}
   - component: {fileID: 786219904}
   m_Layer: 5
-  m_Name: Text 5
+  m_Name: Text 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2598,7 +2614,7 @@ GameObject:
   - component: {fileID: 808570301}
   - component: {fileID: 808570300}
   m_Layer: 5
-  m_Name: Text 2
+  m_Name: Text 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2737,8 +2753,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_3
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3081,8 +3097,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_2
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3138,7 +3154,7 @@ GameObject:
   - component: {fileID: 926754029}
   - component: {fileID: 926754028}
   m_Layer: 5
-  m_Name: Text 3
+  m_Name: Text 23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3277,7 +3293,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: menu
         m_Mode: 1
         m_Arguments:
@@ -3473,8 +3489,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_5
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_20
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3530,7 +3546,7 @@ GameObject:
   - component: {fileID: 1079248110}
   - component: {fileID: 1079248109}
   m_Layer: 5
-  m_Name: Text 4
+  m_Name: Text 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3675,7 +3691,7 @@ GameObject:
   - component: {fileID: 1120060921}
   - component: {fileID: 1120060920}
   m_Layer: 5
-  m_Name: Text 3
+  m_Name: Text 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3883,7 +3899,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: restart
         m_Mode: 1
         m_Arguments:
@@ -4079,8 +4095,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_4
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_19
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4207,7 +4223,7 @@ GameObject:
   - component: {fileID: 1271383598}
   - component: {fileID: 1271383597}
   m_Layer: 5
-  m_Name: Text 3
+  m_Name: Text 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4346,8 +4362,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_4
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_24
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4403,7 +4419,7 @@ GameObject:
   - component: {fileID: 1294574724}
   - component: {fileID: 1294574723}
   m_Layer: 5
-  m_Name: Text 4
+  m_Name: Text 19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4477,7 +4493,7 @@ GameObject:
   - component: {fileID: 1344791479}
   - component: {fileID: 1344791478}
   m_Layer: 5
-  m_Name: Text 2
+  m_Name: Text 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4551,7 +4567,7 @@ GameObject:
   - component: {fileID: 1433595368}
   - component: {fileID: 1433595367}
   m_Layer: 5
-  m_Name: Text 1
+  m_Name: Text 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4625,7 +4641,7 @@ GameObject:
   - component: {fileID: 1433910424}
   - component: {fileID: 1433910423}
   m_Layer: 5
-  m_Name: Text 2
+  m_Name: Text 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4764,8 +4780,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_3
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_18
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4913,7 +4929,7 @@ RectTransform:
   m_Children:
   - {fileID: 1093784042}
   m_Father: {fileID: 1538463380}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5065,8 +5081,8 @@ RectTransform:
   - {fileID: 1776612288}
   - {fileID: 1275347938}
   - {fileID: 2100586101}
-  - {fileID: 1534639042}
   - {fileID: 1582900105}
+  - {fileID: 1534639042}
   - {fileID: 1133570627}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -5152,8 +5168,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_2
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_17
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5227,7 +5243,7 @@ RectTransform:
   m_Children:
   - {fileID: 1234357762}
   m_Father: {fileID: 1538463380}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5488,7 +5504,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: restart
         m_Mode: 1
         m_Arguments:
@@ -5610,7 +5626,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: button_3
         m_Mode: 1
         m_Arguments:
@@ -5667,7 +5683,7 @@ GameObject:
   - component: {fileID: 1734579242}
   - component: {fileID: 1734579241}
   m_Layer: 5
-  m_Name: Text 5
+  m_Name: Text 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5741,7 +5757,7 @@ GameObject:
   - component: {fileID: 1736459458}
   - component: {fileID: 1736459457}
   m_Layer: 5
-  m_Name: Text 5
+  m_Name: Text 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5815,7 +5831,7 @@ GameObject:
   - component: {fileID: 1738110628}
   - component: {fileID: 1738110627}
   m_Layer: 5
-  m_Name: Text 1
+  m_Name: Text 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5954,8 +5970,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_3
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_23
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6150,7 +6166,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: menu
         m_Mode: 1
         m_Arguments:
@@ -6272,7 +6288,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: pouse
         m_Mode: 1
         m_Arguments:
@@ -6329,7 +6345,7 @@ GameObject:
   - component: {fileID: 1812440214}
   - component: {fileID: 1812440213}
   m_Layer: 5
-  m_Name: Text 3
+  m_Name: Text 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6468,8 +6484,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_1
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_21
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6590,7 +6606,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 414820866}
         m_MethodName: button_5
         m_Mode: 1
         m_Arguments:
@@ -6712,8 +6728,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_1
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6843,7 +6859,7 @@ GameObject:
   - component: {fileID: 1927229379}
   - component: {fileID: 1927229378}
   m_Layer: 5
-  m_Name: Text 5
+  m_Name: Text 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7065,7 +7081,7 @@ GameObject:
   - component: {fileID: 2042648994}
   - component: {fileID: 2042648993}
   m_Layer: 5
-  m_Name: Text 4
+  m_Name: Text 24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7204,8 +7220,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_2
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_22
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7326,8 +7342,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: button_5
+      - m_Target: {fileID: 414820866}
+        m_MethodName: button_25
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7383,7 +7399,7 @@ GameObject:
   - component: {fileID: 2143019527}
   - component: {fileID: 2143019526}
   m_Layer: 5
-  m_Name: Text 4
+  m_Name: Text 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
