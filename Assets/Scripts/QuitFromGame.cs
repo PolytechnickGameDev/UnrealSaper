@@ -7,9 +7,9 @@ public class QuitFromGame : MonoBehaviour {
 	public void Quit()
     {
 #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false; // завершення роботи в редакторі
 #else
-        Application.Quit();
+        Application.Quit(); // завершення роботи додатку
 #endif
     }
 }

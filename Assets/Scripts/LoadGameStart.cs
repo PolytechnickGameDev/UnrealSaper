@@ -8,6 +8,6 @@ public class LoadGameStart : MonoBehaviour {
 
 	public void LoadByIndex()
     {
-        SceneManager.LoadScene("HighLevel");
+        SceneManager.LoadScene("HighLevel"); // запуск сцени HighLevel
     }
 }

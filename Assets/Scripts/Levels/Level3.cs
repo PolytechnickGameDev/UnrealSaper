@@ -6,32 +6,32 @@ using UnityEngine;
 
 public class Level3 : MonoBehaviour {
     
-    int v = 6;
-    int[,] m = new int[3, 3];
-    public GameObject[] knop = new GameObject[9];
-    public GameObject paus;
-    public GameObject GO;
-    public GameObject VI;
+    int v = 6; // кількість вільних клітинок
+    int[,] m = new int[3, 3]; // робоче поле
+    public GameObject[] knop = new GameObject[9]; // ігрове поле
+    public GameObject paus; //вікно паузи
+    public GameObject GO; //вікно програшу
+    public GameObject VI; //вікно виграшу
     // Use this for initialization
     void Start()
     {
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
-        v = 6;
-        paus.SetActive(false);
-        GO.SetActive(false);
-        VI.SetActive(false);
+        Screen.orientation = ScreenOrientation.LandscapeLeft; // Альбомна орієнтація
+        v = 6; // вказуємо кількість вільних клітинок
+        paus.SetActive(false); //приховуємо вікно паузи
+        GO.SetActive(false); //приховуємо вікно паузи
+        VI.SetActive(false); //приховуємо вікно паузи
         for (int i=0; i<9; ++i)
-        { knop[i].GetComponent<Text>().text = ""; }
+        { knop[i].GetComponent<Text>().text = ""; } // очищуємо ігрове поле
 
         for (int i = 0; i < 3; ++i)
             for (int j = 0; j < 3; ++j)
-            { m[i, j] = 0; }
-        int b = 3;
+            { m[i, j] = 0; } // занульоїмо робоче поле
+        int b = 3; // вказуємо кількість бомб
         while (b > 0)
         {
-            int i = Random.Range(0,3);
-            int j = Random.Range(0,3);
-            if (m[i, j] != -1) { m[i, j] = -1; b--; }
+            int i = Random.Range(0,3); // вибираємо будь який рядок
+            int j = Random.Range(0,3); // вибираємо будь який стовбець
+            if (m[i, j] != -1) { m[i, j] = -1; b--; } // якщо бомба не стоїть на цій позиції ставимо її
         }
     }
 
@@ -42,7 +42,7 @@ public class Level3 : MonoBehaviour {
     }
 
     int bombs(int i, int j)
-    {
+    {   // перевіряємо кількість бомб навколо позиції з перевіркою виходу за межі поля
         int x = 0;
         int max = 2, min = 0;
         if ((i - 1 >= min) && (j - 1 >= min))
@@ -65,14 +65,14 @@ public class Level3 : MonoBehaviour {
         return x;
     }
 
-    public void button_1()
+    public void button_1() // при натисканні на ділянку
     {
         int i = 0, j = 0;
-        if (m[i, j] == -1) { knop[0].GetComponent<Text>().text = "Boom!";
-            GO.SetActive(true);
-            Handheld.Vibrate(); }
-        else { knop[0].GetComponent<Text>().text = (bombs(i, j).ToString());
-            --v; Viner(v); }
+        if (m[i, j] == -1) { knop[0].GetComponent<Text>().text = "Boom!"; // якщо стоїть бомба показуємо це
+            GO.SetActive(true); // викликаємо вікно програшу
+            Handheld.Vibrate(); } // викликаємо вібрацію
+        else { knop[0].GetComponent<Text>().text = (bombs(i, j).ToString()); // якщо бомба не стоїть показуємо кількість бомб навколо
+            --v; Viner(v); } // віднімаємо вільне від бомб поле, перевіряємо чи такі ще є
     }
 
     public void button_2()
@@ -167,30 +167,30 @@ public class Level3 : MonoBehaviour {
         else { knop[8].GetComponent<Text>().text = (bombs(i, j).ToString()); --v; Viner(v); }
     }
 
-    public void restart()
+    public void restart() // при натисканні на кнопку 
     {
-        Start();
+        Start(); // викликаємо функцію Start() 
     }
 
-    public void menu()
+    public void menu() // при натисканні на кнопку
     {
-        SceneManager.LoadScene("MainWindow");
+        SceneManager.LoadScene("MainWindow"); // Запуск сцени MainWindow
     }
 
-    public void resume()
+    public void resume() // при натисканні на кнопку
     {
-        Time.timeScale = 1;
-        paus.SetActive(false);
+        Time.timeScale = 1; // відновлюємо ігровий час
+        paus.SetActive(false); // приховуємо вікно паузи
     }
 
-    public void pouse()
+    public void pouse() // при натисканні на кнопку
     {
-        Time.timeScale = 0;
-        paus.SetActive(true);
+        Time.timeScale = 0; // зупиняємо ігровий час
+        paus.SetActive(true); // викликаємо вікно паузи
     }
 
-    void Viner(int i)
+    void Viner(int i) // при натисканні на кнопку
     {
-        if (i == 0) VI.SetActive(true);
+        if (i == 0) VI.SetActive(true); // якщо усі поля окрім бомб були відкриті викликаємо вікно перемоги
     }
 }

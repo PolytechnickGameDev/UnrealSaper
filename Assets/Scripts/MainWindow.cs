@@ -8,8 +8,8 @@ using UnityEngine;
         // Use this for initialization
         void Start()
         {
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
-        }
+        Screen.orientation = ScreenOrientation.LandscapeLeft; // Альбомна орієнтація
+    }
 
         // Update is called once per frame
         void Update()
