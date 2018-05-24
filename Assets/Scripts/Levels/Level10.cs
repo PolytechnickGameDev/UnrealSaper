@@ -21,8 +21,8 @@ public class Level10 : MonoBehaviour {
         for (int i = 0; i < 100; ++i)
         { knop[i].GetComponentInChildren<Text>().text = ""; }
 
-        for (int i = 0; i < 5; ++i)
-            for (int j = 0; j < 5; ++j)
+        for (int i = 0; i < 10; ++i)
+            for (int j = 0; j < 10; ++j)
             { m[i, j] = 0; }
         int b = 45;
         while (b > 0)
@@ -42,7 +42,7 @@ public class Level10 : MonoBehaviour {
     int bombs(int i, int j)
     {
         int x = 0;
-        int max = 4, min = 0;
+        int max = 9, min = 0;
         if ((i - 1 >= min) && (j - 1 >= min))
             if (m[i - 1, j - 1] == -1) { x++; }
         if (i - 1 >= 0)
