@@ -14,6 +14,7 @@ public class Level5 : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
         v = 13;
         paus.SetActive(false);
         GO.SetActive(false);
@@ -194,8 +195,9 @@ public class Level5 : MonoBehaviour {
 
     void pole (int i, int j, int x)
     {
-        if (m[i, j] == -1) { knop[x].GetComponentInChildren<Text>().text = "Boom!"; GO.SetActive(true); }
+        if (m[i, j] == -1) { knop[x].GetComponentInChildren<Text>().text = "Boom!";
+            GO.SetActive(true);
+            Handheld.Vibrate();}
         else { knop[x].GetComponentInChildren<Text>().text = (bombs(i, j).ToString()); --v; Viner(v); }
-        print(x);
     }
 }
